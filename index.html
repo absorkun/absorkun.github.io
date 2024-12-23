@@ -1,14 +1,97 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/icon.jpeg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>absorkun</title>
-    <script type="module" crossorigin src="/assets/index-BaalnzUc.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-n_ryQ3BS.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absorkun's links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background: linear-gradient(135deg, #ffffff, #e3e6f3);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            max-width: 400px;
+            width: 100%;
+        }
+        .profile {
+            margin-bottom: 20px;
+        }
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .profile h1 {
+            font-size: 26px;
+            margin: 0;
+            color: #333;
+            font-weight: bold;
+        }
+        .links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+            padding: 12px;
+            text-decoration: none;
+            background: purple;
+            color: white;
+            border-radius: 25px;
+            transition: background 0.3s, transform 0.2s;
+            font-size: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .links a:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+        }
+        .links a:active {
+            transform: translateY(0);
+        }
+        .links a img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="icon.jpeg" alt="Profile Picture">
+            <h1>absorkun</h1>
+        </div>
+        <div class="links">
+            <a href="https://github.com/absorkun" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="Github Icon">
+                Github
+            </a>
+            <a href="https://medium.com/@absordwiyana" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968906.png" alt="Medium Icon">
+                Medium
+            </a>
+            <a href="https://instagram.com/absorkun" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram Icon">
+                Instagram
+            </a>
+            <a href="https://ko-fi.com/absorkun" target="_blank">
+                <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-Fi Icon">
+                Ko-Fi
+            </a>
+        </div>
+    </div>
+</body>
 </html>
