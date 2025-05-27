@@ -1,101 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <title>absorkun's links</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            text-align: center;
-            background: linear-gradient(135deg, #ffffff, #e3e6f3);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-            max-width: 400px;
-            width: 100%;
-        }
-        .profile {
-            margin-bottom: 20px;
-        }
-        .profile img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 15px;
-        }
-        .profile h1 {
-            font-size: 26px;
-            margin: 0;
-            color: #333;
-            font-weight: bold;
-        }
-        .links a {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 10px 0;
-            padding: 12px;
-            text-decoration: none;
-            background: rgb(1, 38, 148);
-            color: white;
-            border-radius: 25px;
-            transition: background 0.3s, transform 0.2s;
-            font-size: 24px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .links a:hover {
-            background: #1875d8;
-            transform: translateY(-2px);
-        }
-        .links a:active {
-            transform: translateY(0);
-        }
-        .links a img {
-            width: 20px;
-            height: 20px;
-            margin-right: 10px;
-        }
-    </style>
-</head>
+    <title>Nama Lengkap - Portofolio Backend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
 <body>
-    <div class="container">
-        <div class="profile">
-            <img src="icon.jpeg" alt="Profile Picture">
+
+    <header class="header">
+        <div class="container">
+            <h1>Nama Lengkap</h1>
+            </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Backend Developer (Fresh Graduate)</h2>
+            <p>Membangun API yang kuat, efisien, dan terukur dengan fokus pada performa dan skalabilitas.</p>
+            <div class="cta-buttons">
+                <a href="#proyek" class="button primary">Lihat Proyek Saya</a>
+                <a href="https://github.com/yourusername" target="_blank" class="button secondary">GitHub Profil</a>
+            </div>
         </div>
-        <div class="links">
-            <a href="https://github.com/absorkun" target="_blank">
-                <img src="https://github.com/favicon.ico" alt="Github Icon">
-                Github
-            </a>
-            <a href="https://medium.com/@absordwiyana" target="_blank">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968906.png" alt="Medium Icon">
-                Medium
-            </a>
-            <a href="https://instagram.com/absorkun" target="_blank">
-                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram Icon">
-                Instagram
-            </a>
-            <a href="https://ko-fi.com/absorkun" target="_blank">
-                <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-Fi Icon">
-                Ko-Fi
-            </a>
-            <a href="https://absor.pages.dev" target="_blank">
-                <img src="icon.jpeg" alt="Absorkun Icon">
-                Portfolio
-            </a>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h3>Keahlian Teknis</h3>
+            <div class="skills-list">
+                <span>Node.js (Express)</span>
+                <span>Python (Django/Flask)</span>
+                <span>PostgreSQL</span>
+                <span>MongoDB</span>
+                <span>RESTful API Design</span>
+                <span>Git & GitHub</span>
+                <span>Docker (dasar)</span>
+                </div>
         </div>
-    </div>
+    </section>
+
+    <section id="proyek" class="projects">
+        <div class="container">
+            <h3>Proyek Pilihan</h3>
+
+            <div class="project-item">
+                <h4>Sistem E-commerce Backend API</h4>
+                <p>API backend untuk aplikasi e-commerce yang mengelola produk, pesanan, otentikasi pengguna, dan integrasi pembayaran. Dibangun dengan Node.js, Express, dan PostgreSQL.</p>
+                <p class="tech-stack"><strong>Tech Stack:</strong> Node.js, Express, PostgreSQL, Sequelize ORM, JWT, Multer</p>
+                <div class="project-links">
+                    <a href="https://github.com/yourusername/ecommerce-api-repo" target="_blank" class="button">Lihat Kode</a>
+                    <a href="https://documenter.getpostman.com/view/..." target="_blank" class="button">Demo API (Postman)</a>
+                </div>
+                </div>
+
+            <div class="project-item">
+                <h4>Aplikasi Manajemen Tugas (REST API)</h4>
+                <p>Backend API untuk aplikasi manajemen tugas sederhana, memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus tugas. Dilengkapi dengan otentikasi pengguna.</p>
+                <p class="tech-stack"><strong>Tech Stack:</strong> Python, Flask, SQLAlchemy, SQLite, Basic Auth</p>
+                <div class="project-links">
+                    <a href="https://github.com/yourusername/todo-api-repo" target="_blank" class="button">Lihat Kode</a>
+                    </div>
+            </div>
+
+            </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h3>Tentang Saya</h3>
+            <p>Sebagai lulusan S1 Teknik Informatika dari [Nama Universitas], saya sangat antusias dalam merancang dan mengembangkan arsitektur backend yang scalable dan performan. Saya selalu termotivasi untuk belajar teknologi baru dan mencari tantangan dalam membangun sistem yang kompleks. Saya mencari posisi sebagai Junior/Associate Backend Developer di lingkungan yang dinamis.</p>
+            <p><strong>Pendidikan:</strong> S1 Teknik Informatika, [Nama Universitas] ([Tahun Lulus])</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h3>Hubungi Saya</h3>
+            <p>Email: <a href="mailto:nama@email.com">nama@email.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Nama Lengkap. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
